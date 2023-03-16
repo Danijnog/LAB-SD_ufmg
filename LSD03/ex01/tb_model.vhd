@@ -2,6 +2,8 @@
 -- at https://vhdl.lapinoo.net
 -- Generation date : 16.3.2023 01:22:58 UTC
 
+-- Esse testbench foi gerado de forma automatica, na verdade poderia ter feito um testbench mais simples, igual no ex02
+
 library ieee;
 use ieee.std_logic_1164.all;
 
@@ -45,7 +47,7 @@ begin
 
     stimuli : process
     begin
-        A <= '1';
+        A <= '1'; --inicializei para testar esses valores
         B <= '0';
         C <= '0';
         D <= '1';
