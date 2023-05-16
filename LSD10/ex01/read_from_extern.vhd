@@ -1,5 +1,5 @@
 -- Seção 5.7, exercicio 1 letra a) - página 68
-
+-- O testbench desse exercicio foi refeito para ler de um arquivo externo, 'data.txt'
 library ieee;
 use ieee.std_logic_1164.all;
 
